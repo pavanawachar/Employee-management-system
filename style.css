@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+  
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .container {
+    
+    width: 100%;
+    height: auto;
+   
+    margin: 0 auto;
+    padding: 20px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:40px ;
+    background-color: rgb(190, 149, 98);
+    box-shadow: 0 0 8px;
+  }
+  #employeeForm{
+  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+   
+    margin-bottom: 10px;
+    width:28%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3b434b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    
+  }
+  #employeeList{
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  #errorMsg {
+    color: red;
+  }
+  
+  #successMsg {
+    color: green;
+  }
+ li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+ }
